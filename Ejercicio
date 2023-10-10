@@ -1,5 +1,5 @@
 1. Instale en una máquina virtual un sistema operativo con base Linux (se recomienda Debian o Ubuntu) e instale apache2.
-
+IMAGEN1
 2. Explique con sus palabras que es una petición GET, POST, PUT y DELETE, remarcando sus diferencias. 
 GET: Le pide al servidor informacion que necesite.
 POST: Se utiliza cuando tienes que enviarle datos al servidor.
@@ -7,13 +7,18 @@ PUT: Se utiliza para actualizar los datos que envias al servidor.
 DELETE: Elimina una informacion especifica.
 
 3. Cambie del puerto 80 al puerto 4444 el servidor apache2. Muestra desde el navegador su funcionamiento adjuntando una captura de pantalla. 
+IMAGEN3
 
 4. Instale un certificado SSL y configure su Apache para servir contenido a través de HTTPS en el puerto 4444. Muestre desde el navegador cómo se muestra el sitio web como "seguro" (aunque sea un certificado autofirmado).
+IMAGEN4
 
 5. ¿Dónde se encuentran los ficheros de configuración de Apache2?
 • Ubicación principal.
+La ubicacion es /etc/apache2/apache2.conf
 • Explora el archivo apache2.conf. Identifica las secciones principales y describe su propósito.
+
 • sites-available y sites-enabled: Explica la diferencia entre estos dos directorios y cómo funcionan juntos.
+En el sites-available se encuentran todos los sitios web del servidor, en cambio en el sites-enabled solo se encuentran los sitios habilitados.
 • mods-available y mods-enabled: Explica la diferencia entre estos dos directorios.
 
 6. ¿Dónde se encuentran los ficheros de ejecución de Apache2?
