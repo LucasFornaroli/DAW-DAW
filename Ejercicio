@@ -16,10 +16,13 @@ IMAGEN4
 • Ubicación principal.
 La ubicacion es /etc/apache2/apache2.conf
 • Explora el archivo apache2.conf. Identifica las secciones principales y describe su propósito.
-
+Global configuration: Es la seccion principal y tiene configuraciones para el servidor web.
+ServerRoot: Especifica la ubicacion del directorio
+Timeout: Es el tiempo maximo que espera el servidor antes de denegar la solicitud.
 • sites-available y sites-enabled: Explica la diferencia entre estos dos directorios y cómo funcionan juntos.
 En el sites-available se encuentran todos los sitios web del servidor, en cambio en el sites-enabled solo se encuentran los sitios habilitados.
 • mods-available y mods-enabled: Explica la diferencia entre estos dos directorios.
+La diferencia es que mods-available es el directorio en el que estan los modulos disponibles en la instalacion actual, mientras que en mods-enabled se incluyen mediante enlaces el directorio anterior.
 
 6. ¿Dónde se encuentran los ficheros de ejecución de Apache2?
 • Ubicación principal
@@ -36,6 +39,13 @@ En el sites-available se encuentran todos los sitios web del servidor, en cambio
 8. ¿Qué es un Firewall? ¿Para qué sirve? ¿Por qué es necesario? Instale y configure un Firewall en la máquina virtual para que solo permita tráfico HTTP y HTTPS. Bloquee todo el resto de los puertos y demuestre su funcionamiento.
 
 9. Explica con tus palabras las diferentes partes de una URL.
+Protocolo: El HTTPS es el encargado de permitir la transferencia de informacion en internet, es el encargado de permitir la comunicacion entre en cliente y el servidor.
+Subdominio: Por lo general es www, estos permiten que se adquiera un dominio adicional para crear divisiones en el sitio web.
+Dominio: Es el que muestra el nombre unico del sitio web, por eso no hay que utilizar ip, estos pueden ser adquiridos gracias a empresas que los venden.
+TLD: Es la extension del dominio, es la parte final del dominio e indica su origen.
+Carpeta o subcarpeta: Esta se utiliza para organizar la estructura de la web, y nos dice que dentro existe algun archivo.
+Pagina: Este hace referencia a algun archivo del sitio web.
+Etiqueta: Es una referencia al contenido de una pagina
 
 10. Explica el funcionamiento del protocolo HTTP con tus palabras.
 
