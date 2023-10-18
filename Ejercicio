@@ -1,5 +1,6 @@
 1. Instale en una máquina virtual un sistema operativo con base Linux (se recomienda Debian o Ubuntu) e instale apache2.
 IMAGEN1
+
 2. Explique con sus palabras que es una petición GET, POST, PUT y DELETE, remarcando sus diferencias. 
 GET: Le pide al servidor informacion que necesite.
 POST: Se utiliza cuando tienes que enviarle datos al servidor.
@@ -26,7 +27,9 @@ La diferencia es que mods-available es el directorio en el que estan los modulos
 
 6. ¿Dónde se encuentran los ficheros de ejecución de Apache2?
 • Ubicación principal
+IMAGEN6
 • Control del servicio: Utiliza el binario de ejecución para iniciar, detener, recargar y reiniciar el servidor Apache2 explicando la diferencia entre cada uno de los comandos utilizados.
+
 • Comprobación de sintaxis: Usa el binario de Apache para verificar la sintaxis de tu configuración. Esto es útil para asegurarse de que no haya errores antes de reiniciar el servidor.
 
 7. ¿Dónde se encuentran los ficheros de monitorización de Apache2?
