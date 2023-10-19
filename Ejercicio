@@ -51,6 +51,7 @@ Pagina: Este hace referencia a algun archivo del sitio web.
 Etiqueta: Es una referencia al contenido de una pagina
 
 10. Explica el funcionamiento del protocolo HTTP con tus palabras.
+El cliente envia una peticion, el servidor la recibe y le envia una respuesta y el cliente recibe la respuesta.
 
 11. ¿Qué es un archivo .htaccess? Proporcione un ejemplo de cómo se puede utilizar para reescribir URL o restringir el acceso a ciertas partes de su sitio web.
 
