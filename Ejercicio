@@ -29,8 +29,9 @@ La diferencia es que mods-available es el directorio en el que estan los modulos
 • Ubicación principal
 IMAGEN6
 • Control del servicio: Utiliza el binario de ejecución para iniciar, detener, recargar y reiniciar el servidor Apache2 explicando la diferencia entre cada uno de los comandos utilizados.
-
+IMAGEN6.1 El caso del entre recargar y reiniciar es que que al recargar no se reinicia apache y preserva todas las conexiones del usuario, por otro lado iniciar y detener sirven para lo que su mismo nombre indica, y la diferencia entre ellos es que son lo opuesto.
 • Comprobación de sintaxis: Usa el binario de Apache para verificar la sintaxis de tu configuración. Esto es útil para asegurarse de que no haya errores antes de reiniciar el servidor.
+
 
 7. ¿Dónde se encuentran los ficheros de monitorización de Apache2?
 • Ubicación principal
